@@ -6,6 +6,7 @@ public class Arrays {
 
     int a = 5; // 4 byte - 32 bit
 
+    // 1 ölçülü array
     int[] aArr = { 1, 2, 3, 4, 5 }; // 20 byte
 
     int[] abc = new int[3];
@@ -13,7 +14,7 @@ public class Arrays {
     abc[1] = 45;
     abc[2] = 12;
 
-
+    // 2 ölçülü array
     int[][] _2dimArr = new int[2][3];
     _2dimArr[0][0] = 15;
     _2dimArr[0][1] = 16;

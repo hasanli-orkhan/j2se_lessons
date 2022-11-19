@@ -8,16 +8,16 @@ public class SwitchCase {
 
     switch (a) {
       case 1:
-        System.out.println("Hello world 5");
+        System.out.println("1-ci case işə düşdü");
         break;
       case 5:
-        System.out.println("Hello world 2");
+        System.out.println("5-ci case işə düşdü");
         break;
       case 3:
-        System.out.println("Hello world 3");
+        System.out.println("3-cü case işə düşdü");
         break;
       default:
-        System.out.println("Unknown");
+        System.out.println("Naməlum əməliyyat");
     }
 
   }

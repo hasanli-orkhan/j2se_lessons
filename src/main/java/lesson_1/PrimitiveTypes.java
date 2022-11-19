@@ -41,8 +41,6 @@ public class PrimitiveTypes {
     byte b1 = (byte) a2; // we loosing data
 
 
-
-
   }
 
 }
