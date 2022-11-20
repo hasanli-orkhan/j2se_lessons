@@ -30,7 +30,7 @@ public class Loops {
       System.out.print(wordArr[i] + " ");
     }
 
-    for (String word : wordArr) {
+    for (String word : wordArr) { // söz hansıki wordArr massivinin içindədir
       System.out.println(word);
     }
 
@@ -43,14 +43,14 @@ public class Loops {
 
     // WHILE
     int i = 10;
-    while (i < 0) {
+    while (i < 0) { // ilk öncə şərt yoxlanılacaq. Əgər true-dursa onda yerinə yetiriləcək.
       System.out.println(i);
       i--;
     }
 
     // DO .. WHILE
     int m = 0;
-    do {
+    do { // Ən azı 1 dəfə yerinə yetiriləcək və sonra şərt yoxlanılacaq.
       System.out.println(m);
       m++;
     } while (m == 0);
