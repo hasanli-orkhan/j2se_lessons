@@ -1,4 +1,4 @@
-package lessson_4;
+package lesson_4;
 
 public class Vehicle extends Object {
 

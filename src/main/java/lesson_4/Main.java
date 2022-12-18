@@ -1,6 +1,6 @@
-package lessson_4;
+package lesson_4;
 
-import lessson_4.testing_package_friendly.Truck;
+import lesson_4.testing_package_friendly.Truck;
 
 public class Main {
 

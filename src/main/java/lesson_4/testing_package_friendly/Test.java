@@ -1,6 +1,6 @@
-package lessson_4.testing_package_friendly;
+package lesson_4.testing_package_friendly;
 
-import lessson_4.Vehicle;
+import lesson_4.Vehicle;
 
 public class Test {
 
