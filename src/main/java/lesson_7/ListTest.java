@@ -9,6 +9,27 @@ public class ListTest {
 
   public static void main(String[] args) {
 
+    List<String> names = new ArrayList<>();
+    names.add("Hello");
+    names.add("World");
+    names.add("Orkhan");
+    names.add("Elizamin");
+    printList(names);
+
+    boolean isExists = names.contains("World");
+    if (isExists) {
+      System.out.println("Element var");
+    }
+
+    System.out.println("Bir element: " + names.get(2));
+    System.out.println("---------");
+
+    names.remove("World");
+    printList(names);
+
+    names.add("Salam");
+
+
     // ArrayList list = new ArrayList();
 
     List<String> list2 = new ArrayList<>();
@@ -39,6 +60,12 @@ public class ListTest {
       System.out.println(list.get(i));
     }
     System.out.println("-----------");
+  }
+
+  public static void printList_2(List<String> list) {
+    for (String s : list) {
+      System.out.println(s);
+    }
   }
 
 }

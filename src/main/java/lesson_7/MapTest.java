@@ -8,6 +8,12 @@ import java.util.Set;
 public class MapTest {
 
   public static void main(String[] args) {
+
+    Map<Long, String> nameMap = new HashMap<>();
+    nameMap.put(1L, "Elizamin");
+    nameMap.put(2L, "Orkhan");
+    nameMap.put(3L, "Qoshqar");
+
     Map<Integer, String> map = new HashMap<>();
     // putting elements to mup
     map.put(1, "Əsəd");
